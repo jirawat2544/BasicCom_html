@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title> Register </title>
+</head>
+<body>
+  <div class="container mt-3">
+      <h2>**** กรุณากรอกข้อมูลให้ครบถ้วน ****</h2>
+      <form action="">
+        <div class="form-group">
+        <label for="fname"><b>Firstname :</b>  </label>
+        <input type="text" class="form-control col-4" id="fname" placeholder="Enter Firstname" name="fname" required>
+        </div>
+
+        <div class="form-group">
+        <label for="lname"><b>Lastname : </b></label>
+        <input type="text" class="form-control col-4" id="lname" placeholder="Enter Lastname" name="nalme" required>
+        </div>
+
+        <div class="form-group">
+        <label for="email"><b>Email : </b></label>
+        <input type="email" class="form-control col-4" placeholder="Enter Email" id="email" required>
+        </div>
+
+        <div class="form-group">
+        <label for="birthday"><b>Birthday : </b> </label>
+        <input type="date" class="form-control col-4" id="birthday" name="birthday" required>
+        </div>
+
+        <div class="form-group">
+        <label for="weight"><b>Weight : </b> </label>
+        <input type="number" class="form-control col-4" placeholder="Enter Weight" id="weight" name="weight" required>
+        </div>
+
+        <div class="form-group">
+        <label for="height"><b>Height :</b>  </label>
+        <input type="number" class="form-control col-4" placeholder="Enter Height" id="height" name="height" required>
+        </div>
+
+        <div class="form-group">
+        <label for="img"><b>Image : </b> </label>
+        <input type="file" class="form-control-file border col-4" id="img" name="img" required>
+        </div>
+
+        <div class="form-group">
+        <label for="password"><b>Password : </b> </label>
+        <input type="password" class="form-control col-4" placeholder="Enter รหัสผ่าน" id="password" name="password" required>
+        </div>
+
+
+        <label for="height"><b>Gender : </b> </label><br>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="Option" required>Female
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="Option" required>Male
+            </label>
+          </div>
+
+          <div class="form-group ">
+            <label for="color"><b>color :</b></label>
+            <input type="color" class="form-control col-2" id="color" name="color">
+          </div>
+          <div class="form-group ">
+            <label for="Country"><b>Country :</b> </label><br>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="THAILAND" required>THAILAND
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="Cambodia" required>Cambodia
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="China" required>China
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="Myanmar" required>Myanmar
+                </label>
+              </div><br>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="Philippines" required>Philippines
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="Laos" required>Laos
+                </label>
+              </div>
+              <div class="form-check-inline">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input" value="Malaysia" required>Malaysia
+                </label>
+              </div>
+          </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-danger">reset</button>
+        <br>
+        <br>
+      </form>
+    </div>
+
+</body>
+</html>
