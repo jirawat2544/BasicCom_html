@@ -3,8 +3,15 @@
     padding: 0px;
     font: 12px Verdana;
 }
-h1{ font: bold 20px Verdana; }
-h2{ font: bold 14px Verdana; }
+h1{ 
+    font: bold 15px Verdana; 
+    text-align : center ;
+    font: 40px Tower Ruins;
+    
+}
+h2{ 
+    font: bold 14px Verdana; 
+}
 body{
     width: 100%;
     display: -webkit-box;
@@ -18,28 +25,59 @@ body{
     -webkit-box-flex: 1;
 }
 header{
-    background: green;
-    border: 2px solid red;
-    padding: 20px;
+    background: rgb(189, 192, 192);
+    padding: 30px;
+    /* border: 3px solid rgb(37, 37, 37); */
 }
-nav {
-    background: blue;
-    color: white;
+ul#nav{
+    background: rgb(145, 145, 146);
+    width: 100%;
+    height:45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    margin:0;
+    display:block;
+    list-style:none;
+    border-radius:10px;
 }
-nav li{
-    display: inline-block;
-    list-style: none;
-    padding: 5px;
-    color: white;
-    font: bold 14px Verdara;
+#home a{
+    background:rgb(82, 83, 83);
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+#home a:hover{ 
+    border-top-left-radius:10px; 
+    border-bottom-left-radius:10px; 
+}
+nav ul li a{
+    font-family:Angsana New;
+    font-size:18px;
+    line-height:25px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    float:left;
+    text-decoration:none;
+    color:#fff;
+    text-shadow:0px 1px 5px #333;
+    border-left:solid 1px #006;
+    border-right:solid 1px #00f;
+    border-left:solid 1px rgba(255,255,255,0.3);
+    border-right:solid 1px rgba(255,255,255,0.1);
+    font: 15px Sriracha;
+    }
+nav ul li a:hover{ 
+    background:rgb(38, 39, 39); 
+    font: 15px Sriracha;
 }
 #sec_wrapper{
     display: -webkit-box;
     -webkit-box-orient: horizontal;
-    border: 5px solid red;
 }
 section{
-    border: 2px solid blue;
+    border: 2px solid rgb(148, 148, 151);
     -webkit-box-flex: 1;
     margin: 10px;
     padding: 10px;
